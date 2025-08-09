@@ -34,7 +34,7 @@ Requirements:
 
 ## Tools & Resources
 - **Simulation Tool:** LTSpice XVII
-- **Datasheets:** Op-amps & MOSFETs from TI / ON Semiconductor
+- **Datasheets:** Op-amps & MOSFETs
 - **Theory References:**
   - RC time constant formulas
   - Comparator configurations
