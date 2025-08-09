@@ -8,6 +8,9 @@ An **analog-only pulse duration detector** designed in LTSpice to detect whether
 - MOSFET provides **fast capacitor discharge** after pulse ends for instant re-trigger capability.  
 - Suitable for lab instrumentation, test equipment timing checks, and other analog measurement systems.
 
+**Block Diagram:**
+
+![Pulse Duration Detector](./diagram.svg)
 
 ---
 
@@ -47,8 +50,6 @@ The design is modelled in **four stages**:
 2. **Timing Network (R–C)** – Sets the time constant for the detection delay.  
 3. **Comparator Stage** – Op-amp compares capacitor voltage to a fixed **4.5 V** reference.  
 4. **Inversion & Reset Stage** – Op-amp + MOSFET combination inverts output logic and quickly discharges the capacitor when the input pulse ends.
-
-**Block Diagram:**
 
 ---
 
